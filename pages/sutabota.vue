@@ -31,7 +31,6 @@ export default {
         const audio = new Audio(`../assets/sounds/${name}.mp3`);
         // this.audio.load();
         // this.audio.play();
-        console.log(this.aduio.src);
         this.isPlayed = true;
       }
     },
